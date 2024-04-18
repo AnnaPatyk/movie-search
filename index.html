@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="searchBlock">
+      <h1>
+        Дивовижні ідеї <br />
+        Для ваших вечорів
+      </h1>
+      <form id="searchForm">
+        <input
+          type="text"
+          name="nameVideo"
+          id="nameVideo"
+          placeholder="Введіть назву"
+        />
+        <select name="typeVideo" id="typeVideo">
+          <option value="movie">Movie</option>
+          <option value="series">Series</option>
+          <option value="episode">Episode</option>
+        </select>
+        <button type="submit">Пошук</button>
+      </form>
+    </div>
+
+    <section id="movies"></section>
+    <section class="movieBlock"></section>
+    <script src="app.js"></script>
+  </body>
+</html>

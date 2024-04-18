@@ -1,0 +1,161 @@
+body {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.searchBlock {
+   padding: 34px;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: url(pexels-cottonbro-studio-8263325.jpg) 100% 66% / 100% auto no-repeat;
+}
+.searchBlock h1 {
+   font-size: 68px;
+   font-style: italic;
+   color: #267365;
+   text-shadow: 0px 1px 4px #f28705;
+}
+form {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   font-size: 1.125rem;
+   padding: 16px;
+   overflow: hidden;
+}
+input,
+select,
+button,
+option {
+   background-color: #26736590;
+   color: #f28705;
+   font-size: 1.125rem;
+   padding: 10px;
+   width: 100%;
+   border-radius: 4px;
+   font-style: italic;
+   font-size: 18px;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+input {
+   width: 96%;
+}
+.filmCard {
+   flex: 0 1 22%;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   justify-content: space-around;
+   padding: 16px;
+   background-color: #f29f05d3;
+   position: relative;
+}
+.image {
+   width: 100%;
+   height: 350px;
+   overflow: hidden;
+}
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+#movies {
+   width: 102%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 2rem;
+}
+.background {
+   background: url(pexels-andre-moura-2523959.jpg) 100% 66% / 100% auto repeat;
+}
+
+.content {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 24px;
+   color: #267365;
+}
+.content p {
+   display: flex;
+   justify-content: space-between;
+}
+.type {
+   font-size: 14px;
+   position: absolute;
+   top: 10px;
+   right: 0;
+   padding: 4px 8px;
+   background-color: #f2cb05;
+}
+.details {
+   padding: 4px 8px;
+   background-color: #267365;
+   border-radius: 4px;
+   border: 1px solid #f2cb05;
+   box-shadow: 0px 0px 4px #f2cb05;
+   transition: 0.5s;
+}
+.details:hover {
+   background-color: #f2cb05;
+   border: 1px solid #267365;
+   box-shadow: 0px 0px 4px #267365;
+}
+.movieBlock {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.bcolor {
+   padding: 16px;
+   background: rgb(242, 203, 5);
+   background: linear-gradient(
+      0deg,
+      rgba(242, 203, 5, 0.9360994397759104) 41%,
+      rgba(38, 115, 101, 1) 60%,
+      rgb(6, 0, 0) 70%
+   );
+}
+.movieCart {
+   width: 70%;
+   display: flex;
+   padding: 16px;
+   gap: 24px;
+   background-color: #f29f05b1;
+   color: #267365;
+}
+.poster {
+   flex: 0 1 35%;
+   height: auto;
+}
+.aboutFilm {
+   flex: 0 1 60%;
+}
+.aboutFilm p,
+.aboutFilm h3 {
+   display: flex;
+   font-size: 18px;
+}
+.aboutFilm span {
+   flex: 0 0 30%;
+   font-size: 18px;
+   font-weight: 600;
+}
+.error {
+   width: 70%;
+   padding: 24px;
+   font-size: 56px;
+   color: red;
+   text-align: center;
+   background-color: #f29f05c4;
+}
